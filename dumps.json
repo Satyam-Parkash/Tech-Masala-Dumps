@@ -1,0 +1,28 @@
+{
+    "microsoft": {
+    "label": "Microsoft D365",
+    "files": [
+      { "name": "Microsoft PL-900 Dump", "path": "dumps/D365/PL900.docx" }
+    ]
+  },
+  "azure": {
+    "label": "Microsoft Azure",
+    "files": [
+      { "name": "Loading...", "path": "dumps/microsoft/Microsoft_AZ-900_Dump.pdf" },
+      { "name": "Loading...", "path": "dumps/microsoft/Microsoft_AZ-104_Dump.pdf" }
+    ]
+  },
+  "aws": {
+    "label": "Amazon AWS",
+    "files": [
+      { "name": "Loading...", "path": "dumps/aws/AWS_Developer_Associate_Dump.pdf" },
+      { "name": "Loading...", "path": "dumps/aws/AWS_Solutions_Architect_Dump.pdf" }
+    ]
+  },
+  "gcp": {
+    "label": "Google Cloud Platform",
+    "files": [
+      { "name": "Loading...", "path": "dumps/gcp/GCP_Cloud_Engineer_Dump.pdf" }
+    ]
+  }
+}
