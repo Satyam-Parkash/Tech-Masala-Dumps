@@ -24,6 +24,22 @@ select, input[type="text"], input[type="file"] { padding: 10px; font-size: 1rem;
 }
 .dump-list h2 { margin-bottom: 15px; text-align: center; }
 
+.search-box {
+  position: sticky;
+  top: 0;
+  background: #fff;   /* ensures it doesn’t overlap text */
+  z-index: 10;
+  padding: 10px 0;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
 /* Individual dump rows */
 .dump-item {
   display: flex;

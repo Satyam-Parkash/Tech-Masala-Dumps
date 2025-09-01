@@ -53,34 +53,12 @@
     "label": "Microsoft Copilot",
     "files": [
       {
-        "name": "GitHub Copilot 1",
+        "name": "GitHub Copilot Set 1",
         "path": "dumps/copilot/GitHub-Copilot-Certification-Exam-Questions.pdf"
       },
       {
-        "name": "GitHub Copilot 2",
+        "name": "GitHub Copilot Set 2",
         "path": "dumps/copilot/GitHub-Copilot-Dump.pdf"
-      }
-    ]
-  },
-  "aws": {
-    "label": "Amazon Web Services (AWS)",
-    "files": [
-      {
-        "name": "Loading...",
-        "path": "dumps/aws/AWS_Developer_Associate_Dump.pdf"
-      },
-      {
-        "name": "Loading...",
-        "path": "dumps/aws/AWS_Solutions_Architect_Dump.pdf"
-      }
-    ]
-  },
-  "gcp": {
-    "label": "Google Cloud Platform (GCP)",
-    "files": [
-      {
-        "name": "Loading...",
-        "path": "dumps/gcp/GCP_Cloud_Engineer_Dump.pdf"
       }
     ]
   }

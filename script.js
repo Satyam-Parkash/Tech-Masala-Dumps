@@ -28,6 +28,17 @@ async function loadDumps() {
       heading.textContent = "Available Dumps";
       dumpList.appendChild(heading);
 
+      // 🔍 Add search box
+      const searchBox = document.createElement("div");
+      searchBox.className = "search-box";
+      searchBox.innerHTML = `<input type="text" id="searchInput" placeholder=" 🔍 Search exams, codes...">`;
+      dumpList.appendChild(searchBox);
+
+      // Dumps container
+      const listContainer = document.createElement("div");
+      listContainer.id = "dumpsContainer";
+      dumpList.appendChild(listContainer);
+
       files.forEach(file => {
         const item = document.createElement("div");
         item.className = "dump-item";
@@ -41,8 +52,20 @@ async function loadDumps() {
 
         item.appendChild(name);
         item.appendChild(downloadBtn);
-        dumpList.appendChild(item);
+        listContainer.appendChild(item);
       });
+
+      // 🔍 Add search logic
+      document.getElementById("searchInput").addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase();
+        const items = document.querySelectorAll(".dump-item");
+
+        items.forEach(item => {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? "" : "none";
+        });
+      });
+
     } else {
       dumpList.innerHTML = "<p>No dumps available for this category yet.</p>";
     }
