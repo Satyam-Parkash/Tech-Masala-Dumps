@@ -2,13 +2,16 @@
     "microsoft": {
     "label": "Microsoft D365",
     "files": [
-      { "name": "Microsoft PL-900 Dump", "path": "dumps/D365/PL900.docx" }
+      { "name": "Microsoft PL-900 Dump", "path": "dumps/D365/PL900.docx" },
+       { "name": "Microsoft MS-900 Exam 1", "path": "dumps/D365/ms-900_1.PDF" },
+        { "name": "Microsoft MS-900 Exam 2", "path": "dumps/D365/ms-900_2.PDF" },
+        { "name": "Microsoft PL-400 Exam", "path": "dumps/D365/pl-400.PDF" }
     ]
   },
   "azure": {
     "label": "Microsoft Azure",
     "files": [
-      { "name": "Loading...", "path": "dumps/microsoft/Microsoft_AZ-900_Dump.pdf" },
+      { "name": "Microsoft DP-900 Exam", "path": "dumps/microsoft/DP-900-Dumps.pdf" },
       { "name": "Loading...", "path": "dumps/microsoft/Microsoft_AZ-104_Dump.pdf" }
     ]
   },
