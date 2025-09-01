@@ -5,14 +5,25 @@
       { "name": "Microsoft PL-900 Dump", "path": "dumps/D365/PL900.docx" },
        { "name": "Microsoft MS-900 Exam 1", "path": "dumps/D365/ms-900_1.PDF" },
         { "name": "Microsoft MS-900 Exam 2", "path": "dumps/D365/ms-900_2.PDF" },
-        { "name": "Microsoft PL-400 Exam", "path": "dumps/D365/pl-400.PDF" }
+        { "name": "Microsoft PL-400 Exam 1", "path": "dumps/D365/pl-400.PDF" },
+        { "name": "Microsoft PL-400 Exam 2", "path": "dumps/D365/PL-400-all-questions2.pdf" },
+        { "name": "Microsoft PL-400 Exam 3", "path": "dumps/D365/pl-400-dumps-3.pdf" },
+         { "name": "Microsoft PL-600 Exam", "path": "dumps/D365/PL-600-Exam.pdf" }
     ]
   },
   "azure": {
     "label": "Microsoft Azure",
     "files": [
-      { "name": "Microsoft DP-900 Exam", "path": "dumps/microsoft/DP-900-Dumps.pdf" },
-      { "name": "Loading...", "path": "dumps/microsoft/Microsoft_AZ-104_Dump.pdf" }
+      { "name": "Microsoft DP-900 Exam 1", "path": "dumps/microsoft/DP-900-Dumps.pdf" },
+      { "name": "Microsoft DP-900 Exam 2", "path": "dumps/microsoft/DP-900-1.pdf" },
+      { "name": "Microsoft AI-900 Exam", "path": "dumps/microsoft/AI_900_AD.pdf" }
+    ]
+  },
+    "copilot": {
+    "label": "Microsoft Copilot",
+    "files": [
+      { "name": "GitHub Copilot 1", "path": "dumps/copilot/GitHub-Copilot-Certification-Exam-Questions.pdf" },
+      { "name": "GitHub Copilot 2", "path": "dumps/copilot/GitHub-Copilot-Dump.pdf" }
     ]
   },
   "aws": {
