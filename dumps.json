@@ -41,6 +41,10 @@
       {
         "name": "Microsoft MB-210 Exam Set 1",
         "path": "dumps/D365/Microsoft.MB-210.pdf"
+      },
+      {
+        "name": "Microsoft PL-200 Exam Set 1",
+        "path": "dumps/D365/PL-200.pdf"
       }
     ]
   },
@@ -57,7 +61,7 @@
       },
       {
         "name": "Microsoft AI-900 Exam Set 1",
-        "path": "dumps/microsoft/AI_900_AD.pdf"
+        "path": "dumps/microsoft/AI-900.pdf"
       }
     ]
   },
