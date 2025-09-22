@@ -1,36 +1,49 @@
 <!DOCTYPE html>
+<!--
+  Tech Masala: Free Exam Prep Hub
+  Main HTML file for the website UI
+  Developed by Tech Masala
+-->
 <html lang="en">
 <head>
+  <!-- Meta tags and page title -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Masala: Free Exam Prep Hub</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
 </head>
 <body>
+  <!-- Header section with site title and description -->
   <header>
     <h1>📘 Tech Masala: Free Exam Prep Hub</h1>
     <p>Select a certification domain to download preparation materials (PDFs)</p>
   </header>
 
   <main>
+    <!-- Main content: Skill selector and dump list -->
     <div class="selector">
+      <!-- Dropdown to select certification domain -->
       <label for="skillSelect">Choose a Skill:</label>
-      <select id="skillSelect">
+  <select id="skillSelect">
         <option value="">-- Select --</option>
       </select>
     </div>
 
     <div id="dumpList" class="dump-list">
+      <!-- List of available exam dumps will be shown here -->
       <p>👉 Select a skill above to access available exam materials</p>
     </div>
   </main>
 
+  <!-- Footer section with credits and visitor counter -->
   <footer>
-    <p>Made with ❤️ by <a href='https://techmasala.addastudents.com/' target='_blank'>Tech Masala & Team</a> for Learning</p>
-     <a href='http://www.freevisitorcounters.com'>TM</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=e4b3054989ebc21da56048979fd20850d203af53'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1383948/t/5"></script>
+    <p>Made with ❤️ by <a href='https://techmasala.addastudents.com/' target='_blank'>Tech Masala</a> for Learning</p>
+    <a href='http://www.freevisitorcounters.com'>TM</a>
+    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=e4b3054989ebc21da56048979fd20850d203af53'></script>
+    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1383948/t/5"></script>
   </footer>
 
+  <!-- Link to main JavaScript file -->
   <script src="script.js"></script>
 </body>
 </html>
